@@ -3,7 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { AuthorEntity } from 'src/common/entities/author.entity';
 import { ArticleController } from './controllers/article.controller';
 import { ArticleEntity } from './entities/article.entity';
-import { ArticleRepository } from './respositories/article-repository';
+import { ArticleRepository } from './repositories/article-repository';
 import { ArticleService } from './services/article.service';
 
 @Module({

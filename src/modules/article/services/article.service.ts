@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { ResponseResult } from 'src/common/dto/response-result';
 import { PagedQueryModel } from 'src/common/interfaces/paged-query-model.dto';
-import { ArticleRepository } from '../respositories/article-repository';
+import { ArticleRepository } from '../repositories/article-repository';
 import { norimalizePagedQueryModel } from 'src/helpers/functions';
 import { PagedArticle } from '../interfaces/paged-article.interface';
 import { RawArticle } from '../interfaces/raw-article.interface';
